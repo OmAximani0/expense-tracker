@@ -14,7 +14,7 @@ app.set('view engine','ejs')
 
 // Database
 
-const uri = 'mongodb+srv://aximaniom:tJDeg1P04N8QDHT8@cluster0.i7arxza.mongodb.net/expenseTrackerDB?retryWrites=true&w=majority';
+const uri = 'mongodb+srv://aximaniom:shLgHSymtVLgAYca@cluster0.i7arxza.mongodb.net/expenseTrackerDB?retryWrites=true&w=majority';
 
 mongoose.connect(uri,{useNewUrlParser: true})
 
